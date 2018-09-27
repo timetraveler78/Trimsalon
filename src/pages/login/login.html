@@ -1,0 +1,22 @@
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+<ion-list>
+  <ion-item>
+    <ion-label >Gebruikersnaam</ion-label>
+    <ion-input [(ngModel)]="username" type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label >Wachtwoord</ion-label>
+    <ion-input [(ngModel)]="password"  type="password" value=""></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<div padding>
+  <button ion-button full (click)="doLogin()">Inloggen</button>
+</div>
